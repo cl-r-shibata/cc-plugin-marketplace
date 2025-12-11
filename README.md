@@ -67,12 +67,36 @@ After installation, use plugins with their commands:
 /greeting:hello
 ```
 
+## Development
+
+### Setting Up Plugin Development Environment
+
+To develop plugins for this marketplace, install the official `plugin-dev` plugin:
+
+1. **Add the official Claude Code marketplace:**
+   ```
+   /plugin marketplace add anthropics/claude-code
+   ```
+
+2. **Install the plugin-dev plugin:**
+   ```
+   /plugin menu
+   ```
+   Then select `plugin-dev` from the marketplace.
+
+3. **Use the plugin creation command:**
+   ```
+   /plugin-dev:create-plugin
+   ```
+
+The `plugin-dev` plugin provides tools for creating, validating, and reviewing plugins with guided workflows.
+
 ## Contributing
 
 To add a plugin to this marketplace:
 
 1. Create your plugin in the `plugins/` directory
-2. Add an entry to `marketplace.json`
+2. Add an entry to `.claude-plugin/marketplace.json`
 3. Submit a pull request
 
 ## License
