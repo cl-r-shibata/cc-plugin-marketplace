@@ -1,0 +1,8 @@
+{
+  "name": "greeting",
+  "version": "0.1.0",
+  "description": "Simple greeting plugin with Japanese support",
+  "author": {
+    "name": "cc-plugin-marketplace"
+  }
+}

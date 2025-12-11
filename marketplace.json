@@ -1,0 +1,15 @@
+{
+  "name": "CC Plugin Marketplace",
+  "version": "1.0.0",
+  "description": "A marketplace for Claude Code plugins",
+  "plugins": [
+    {
+      "name": "greeting",
+      "version": "0.1.0",
+      "description": "Simple greeting plugin with Japanese support",
+      "path": "./plugins/greeting",
+      "author": "cc-plugin-marketplace",
+      "tags": ["greeting", "japanese", "simple"]
+    }
+  ]
+}
