@@ -2,13 +2,16 @@
   "name": "cc-plugin-marketplace",
   "version": "1.0.0",
   "description": "A marketplace for Claude Code plugins",
-  "owner": "cl-r-shibata",
+  "owner": {
+    "name": "cl-r-shibata",
+    "url": "https://github.com/cl-r-shibata"
+  },
   "plugins": [
     {
       "name": "greeting",
       "version": "0.1.0",
       "description": "Simple greeting plugin with Japanese support",
-      "source": "https://github.com/cl-r-shibata/cc-plugin-marketplace/tree/main/plugins/greeting",
+      "source": "./plugins/greeting",
       "author": {
         "name": "cl-r-shibata",
         "url": "https://github.com/cl-r-shibata"
