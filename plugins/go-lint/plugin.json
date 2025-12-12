@@ -1,0 +1,10 @@
+{
+  "name": "go-lint",
+  "version": "0.1.0",
+  "description": "Go linter environment setup with golangci-lint. Provides commands for project initialization, linting, and automatic fixes with best practice configurations.",
+  "author": {
+    "name": "y-fukunaga",
+    "email": "user@example.com"
+  },
+  "tags": ["go", "golang", "linter", "golangci-lint", "development", "setup"]
+}
