@@ -17,6 +17,17 @@
         "url": "https://github.com/cl-r-shibata"
       },
       "tags": ["greeting", "japanese", "simple"]
+    },
+    {
+      "name": "go-lint",
+      "version": "0.1.0",
+      "description": "Go linter environment setup with golangci-lint. Provides commands for project initialization, linting, and automatic fixes with best practice configurations.",
+      "source": "./plugins/go-lint",
+      "author": {
+        "name": "y-fukunaga",
+        "url": "https://github.com/y-fukunaga"
+      },
+      "tags": ["go", "golang", "linter", "golangci-lint", "development", "code-quality"]
     }
   ]
 }
